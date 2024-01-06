@@ -1,15 +1,15 @@
-.HomeContainer {
+.NavigationContainer {
     width: 100vw;
     height: 100vh;
     display: flex
 }
 
-.Menu {
+.NavigationMenu {
     width: 30%;
     background-color: red
 }
 
-.Article {
+.NavigationContent {
     width: 70%;
     background-color: blue
 }
