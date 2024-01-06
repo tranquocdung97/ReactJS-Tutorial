@@ -1,7 +1,7 @@
 import "./App.css";
 import SignIn from "../views/SignIn/SignIn";
 import SignUp from "../views/SignUp/SignUp";
-import Home from "../views/Home/Home";
+import Home from "../views/home";
 import { styled } from "@mui/system";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
