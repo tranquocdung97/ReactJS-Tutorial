@@ -1,0 +1,25 @@
+.HomeContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex
+}
+
+.Menu {
+    width: 30%;
+    background-color: red
+}
+
+.Article {
+    width: 70%;
+    background-color: blue
+}
+
+.Title {
+    height: 10%;
+    background-color: grey
+}
+
+.Content {
+    height: 90%;
+    background-color: yellow
+}

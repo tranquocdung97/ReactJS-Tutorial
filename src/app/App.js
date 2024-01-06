@@ -1,5 +1,7 @@
 import "./App.css";
-import SignIn from "./SignIn";
+import SignIn from "../views/SignIn/SignIn";
+import SignUp from "../views/SignUp/SignUp";
+import Home from "../views/Home/Home";
 import { styled } from "@mui/system";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -19,6 +21,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<SignIn />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/sign-up' element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     </AppContainer>
