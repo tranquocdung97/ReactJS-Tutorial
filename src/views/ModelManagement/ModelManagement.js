@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
+import "./ModelManagement.css";
 
-const ModelManagement = () => {
-    return (
-        <div className='ModelMangamentContainer'>
-        </div>
-    );
+const ModelManagement = (props) => {
+  return (
+    <div className="ModelMangamentContainer">
+      <div className="Title">{props.title}</div>
+      <div className="Content">Content of Model Mangament</div>
+    </div>
+  );
 };
 
 export default ModelManagement;

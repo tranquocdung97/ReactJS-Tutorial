@@ -1,10 +1,8 @@
-import React from 'react';
-import Navigation from "../components/Layout/Navigation/Navigation"
+import React from "react";
+import Navigation from "../components/Layout/Navigation/Navigation";
 
 const HomePage = () => {
-	return (
-		<Navigation />
-	);
+  return <Navigation />;
 };
 
 export default HomePage;

@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
+import "./Dashboard.css";
 
-const Dashboard = () => {
-    return (
-        <div className='DashboardContainer'>
-        </div>
-    );
+const Dashboard = (props) => {
+  return (
+    <div className="DashboardContainer">
+      <div className="Title">{props.title}</div>
+      <div className="Content">Content of Dashboard</div>
+    </div>
+  );
 };
 
 export default Dashboard;
